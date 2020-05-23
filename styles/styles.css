@@ -18,14 +18,14 @@
   margin: 0.5em 0em 0em 0em;
   padding: 1em 8em 0em 8em;
   background-color: #22559c;
-  border: none;
+  border: #22559a 1px solid;
 }
 
 .intro .register-btn-text {
   font-size: 18px;
 }
 
-.intro .intro-img {
+.intro img {
   max-width: 100%;
   margin: 0.5em 0em 0.5em 0em;
 }
@@ -44,5 +44,17 @@
 .intro .slack-btn-text {
   font-size: 18px;
   color: #22559a;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro h1 {
+    font-size: 60px;
+  }
+  .intro h6 {
+    font-size: 20px;
+  }
+  .intro img {
+    max-width: 75%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

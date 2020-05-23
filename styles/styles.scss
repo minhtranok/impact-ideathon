@@ -17,12 +17,12 @@
         margin: 0.5em 0em 0em 0em;
         padding: 1em 8em 0em 8em;
         background-color: #22559c;
-        border: none;
+        border: #22559a 1px solid;
     }
     .register-btn-text {
         font-size: 18px;
     }
-    .intro-img {
+    img {
         max-width: 100%;
         margin: 0.5em 0em 0.5em 0em;
     }
@@ -39,4 +39,21 @@
         font-size: 18px;
         color: #22559a;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        h1 {
+            font-size: 60px;
+        }
+        h6 {
+            font-size: 20px;
+        }
+        img {
+            max-width: 75%;
+        }
+    }
+    // .intro-img {
+    //     max-height: 80%;
+    // }
 }
