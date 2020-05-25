@@ -5,11 +5,11 @@
 }
 
 .nav-item {
-    font-size: 24px;
-    // justify-content: center;
-    // text-align: center;
-    // align-items: center !important;
-    // text-align: left !important;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    align-items: center !important;
+    text-align: left !important;
 }
 
 .intro {
@@ -76,6 +76,30 @@
 
 .custom-toggler.navbar-toggler {
     border-color: #F8F8F8;
+}
+
+.faq {
+    padding: 2em;
+    .faq-title {
+        text-align: center;
+        font-weight: 600;
+    }
+    .faq-text {
+        font-size: 18px;
+    }
+}
+
+.faq-question {
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    font-size: 18px !important;
+    justify-content: center;
+
+    .faq-question-header {
+        color: black !important;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
