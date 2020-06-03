@@ -5,9 +5,13 @@
 
 .nav-item {
   font-size: 18px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
-  align-items: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
   text-align: left !important;
 }
 
@@ -23,7 +27,9 @@ a {
 .intro {
   text-align: center;
   padding: 6em 1em 3em 1em;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .intro h1 {
@@ -72,7 +78,9 @@ a {
 .team {
   text-align: center;
   padding: 2em 1em 2em 1em;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .team .team-img {
@@ -123,7 +131,9 @@ a {
   color: black;
   text-align: center;
   font-size: 18px !important;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .faq-question .faq-question-header {
@@ -158,3 +168,4 @@ a {
     padding: 1em 7em 0em 7em;
   }
 }
+/*# sourceMappingURL=styles.css.map */
