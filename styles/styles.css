@@ -117,6 +117,18 @@ a {
   font-weight: 400;
 }
 
+.main .category {
+  text-align: center;
+}
+
+.main .category-text {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 10px 6px -6px black;
+  background-color: #B7D5FE;
+}
+
 .faq {
   padding: 0.5em;
 }
